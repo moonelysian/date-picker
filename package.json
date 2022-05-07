@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "snowpack dev",
-    "build": "snowpack build"
+    "build": "snowpack build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -21,6 +23,7 @@
     "snowpack": "^3.8.8"
   },
   "devDependencies": {
-    "@snowpack/plugin-sass": "^1.4.0"
+    "@snowpack/plugin-sass": "^1.4.0",
+    "gh-pages": "^3.2.3"
   }
 }
