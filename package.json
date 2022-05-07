@@ -1,4 +1,5 @@
 {
+  "homepage": "https://moonelysian.github.io/date-picker",
   "name": "date-picker",
   "version": "1.0.0",
   "description": "",
@@ -18,7 +19,6 @@
   "bugs": {
     "url": "https://github.com/moonelysian/date-picker/issues"
   },
-  "homepage": "https://github.com/moonelysian/date-picker#readme",
   "dependencies": {
     "prettier": "2.6.2",
     "snowpack": "^3.8.8"
