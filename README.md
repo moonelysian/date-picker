@@ -25,13 +25,12 @@
 # Snowpack
 https://www.snowpack.dev/
 
-## 주요개념
 ### unbundled development
 - Babel, TypeScript, Scss와 같은 자주 사용하는 라이브러리로 파일을 빌드하고 EMS import/export 구문으로 브라우저에서 개별적으로 로드
 - Snowpack은 파일이 변경되묜 해당 단일 파일만 다시 빌드
 <img width="628" alt="스크린샷 2022-05-07 오후 2 44 10" src="https://user-images.githubusercontent.com/37898263/167240323-506f05f6-9897-46d6-bba2-f5a1c01583c9.png">
 
-## 장점
+### 장점
 1. 빠르다
 2. 예측한 대로 동작
 3. 디버깅이 더 용이함
